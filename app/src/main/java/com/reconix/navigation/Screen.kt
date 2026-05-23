@@ -1,0 +1,26 @@
+package com.reconix.navigation
+
+sealed class Screen(val route: String) {
+    object Splash : Screen("splash")
+    object Onboarding : Screen("onboarding")
+    object Login : Screen("login")
+    object Register : Screen("register")
+    object ForgotPassword : Screen("forgot_password")
+    object Home : Screen("home")
+    object DomainDiscovery : Screen("domain_discovery")
+    object SubdomainEnum : Screen("subdomain_enum")
+    object VulnerabilityTracker : Screen("vulnerability_tracker")
+    object ReconTools : Screen("recon_tools")
+    object Reports : Screen("reports")
+    object Notifications : Screen("notifications")
+    object Profile : Screen("profile")
+    object Premium : Screen("premium")
+    object Settings : Screen("settings")
+    object AiAssistant : Screen("ai_assistant")
+    object WhoisLookup : Screen("whois_lookup")
+    object DnsLookup : Screen("dns_lookup")
+    object HttpHeaders : Screen("http_headers")
+    object PortScanner : Screen("port_scanner")
+    object TechDetector : Screen("tech_detector")
+    object SslChecker : Screen("ssl_checker")
+}
