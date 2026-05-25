@@ -83,3 +83,13 @@ For developers or researchers taking this repository further, here are the recom
    * Wrap the Room Database in SQLCipher for complete device-level encryption of discovered targets and finding logs.
 4. **Push Notifications Customization**:
    * Bind the Firebase Cloud Messaging module to monitor live scopes and alert users the millisecond a target adds new domains.
+
+
+
+
+
+   
+
+https://github.com/user-attachments/assets/3e6a29ac-e940-4ab0-b8be-ed80ffa6d899
+
+
